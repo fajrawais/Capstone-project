@@ -1,0 +1,52 @@
+.specials-bg {
+  background-color: white;
+}
+
+.specials h2 {
+  text-align: center;
+  padding: 10px;
+  color: rgb(14, 0, 0);
+}
+
+.specials {
+  grid-column: 4 / 12;
+  grid-row: 2;
+  padding-bottom: 7rem;
+  margin-left: 25px;
+}
+.specials img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+  align-self: center;
+  margin-left: 3px;
+}
+
+.specials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    grid-column: 1 / 13;
+    padding: 32px;
+  }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .testimonials {
+    grid-column: 1 / 13;
+    padding: 16px;
+  }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

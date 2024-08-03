@@ -1,0 +1,39 @@
+footer section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .company-info {
+    margin-bottom: 20px; /* Add some space between the company info and the lists */
+  }
+  
+  footer .lists-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  footer .lists-container div {
+    flex: 1;
+    min-width: 200px; /* Ensure a minimum width to make it responsive */
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer h3 {
+    margin-top: 0;
+    font-size: 15px;
+    color:#495e57 ;
+  }
+  
+  .footer-container{
+    background-color: rgb(248, 241, 232);
+    padding-top: 30px;
+  }
